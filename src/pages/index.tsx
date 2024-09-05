@@ -11,7 +11,7 @@ export default function LandingPage() {
       <header className="px-4 lg:px-6 h-16 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Image
-            src="/nirmana-logo.svg" // Replace with your actual logo path
+            src="/nirmana.jpg" // Replace with your actual logo path
             alt="Nirmana Logo"
             width={40}
             height={40}
