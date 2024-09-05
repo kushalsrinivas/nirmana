@@ -13,8 +13,8 @@ export default function LandingPage() {
           <Image
             src="/nirmana.jpg" // Replace with your actual logo path
             alt="Nirmana Logo"
-            width={40}
-            height={40}
+            width={100}
+            height={100}
             className="mr-2"
           />
           <span className="font-bold text-xl">Nirmana </span>
@@ -72,13 +72,13 @@ export default function LandingPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="flex flex-col items-center text-center">
-                <Image
+                {/* <Image
                   src="/placeholder.svg?height=200&width=300"
                   width={300}
                   height={200}
                   alt="Project Management"
                   className="rounded-lg mb-4"
-                />
+                /> */}
                 <h3 className="text-2xl font-bold mb-2">Project Management</h3>
                 <p className="text-gray-500 mb-4">
                   Mobile project management that improves efficiency by
@@ -90,13 +90,13 @@ export default function LandingPage() {
                 </Button>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Image
+                {/* <Image
                   src="/placeholder.svg?height=200&width=300"
                   width={300}
                   height={200}
                   alt="Quality & Safety"
                   className="rounded-lg mb-4"
-                />
+                /> */}
                 <h3 className="text-2xl font-bold mb-2">Quality & Safety</h3>
                 <p className="text-gray-500 mb-4">
                   Mitigate risks and make tough decisions using real-time data
@@ -109,13 +109,13 @@ export default function LandingPage() {
                 </Button>
               </div>
               <div className="flex flex-col items-center text-center">
-                <Image
+                {/* <Image
                   src="/placeholder.svg?height=200&width=300"
                   width={300}
                   height={200}
                   alt="Financial Management"
                   className="rounded-lg mb-4"
-                />
+                /> */}
                 <h3 className="text-2xl font-bold mb-2">
                   Financial Management
                 </h3>
